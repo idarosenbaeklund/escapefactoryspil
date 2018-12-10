@@ -1,0 +1,69 @@
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+	<!-- HUSK AT UDFYLDE BESKRIVELSE TIL SEO-->
+	<meta name="Description" content="">
+	<meta name="Keywords" content="">
+	<meta name="Author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Factory</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mate|Mate+SC|Merriweather+Sans" rel="stylesheet">
+</head>
+
+
+
+
+
+
+<body>
+
+<div class="baggrund1">
+<img class="baggrundimg"src="images/baggrund2.jpg" alt="">
+
+<img src="fjernsyn.png" alt="" id="fjernsynet" onclick="change();" width="50%;">
+
+<a href="index.html"><img class="pilvenstre" src="images/pil-venstre.png"  alt=""></a>
+<a href="rum-1.html"><img class="pilhojre" src="images/pil-hojre.png"   alt=""></a>
+
+</div>
+
+
+
+
+
+
+<!--onclick "change" bruges til at sige når der klikkes skal det der sker nede i function change ske-->
+
+    
+    
+    
+
+ <!--fundet her: https://www.youtube.com/watch?v=SGKXZUGe2sw-->
+
+<script type="text/javascript">
+    var image_tracker = 'f'
+   
+    function change() {
+        
+        var image = document.getElementById('fjernsynet');
+        
+        if(image_tracker=='f') {
+            image.src='television.png';
+            image_tracker = 't';
+        }else{
+            image.src = 'fjernsyn.png';
+            image_tracker ='f';
+        }
+    }
+    
+    
+    
+    </script>
+
+
+
+</body>
+
+</html>

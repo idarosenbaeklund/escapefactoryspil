@@ -1,0 +1,58 @@
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+	<!-- HUSK AT UDFYLDE BESKRIVELSE TIL SEO-->
+	<meta name="Description" content="">
+	<meta name="Keywords" content="">
+	<meta name="Author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Factory</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mate|Mate+SC|Merriweather+Sans" rel="stylesheet">
+</head>
+
+
+<body>
+
+ 
+   <div class="baggrund6">
+   <img class="baggrundimg" src="images/baggrund6.jpg" alt="">
+
+<a href="rum-3.html"><img class="pilvenstre" src="images/pil-venstre.png"   alt=""></a>
+
+<img class="padlock" src="images/padlock.png" alt="" onclick="myFunction()">
+
+
+<p id="demo"></p>
+   
+</div>
+    
+
+   <!--inspiration fra: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_switch4-->
+
+<script id="promt">
+function myFunction() {
+    var text;
+    var koden = prompt("Hvad mener du koden er?");
+    switch(koden) {
+        case "7597":
+        text = "DU GJORDE DET! Du knækkede koden, godt gået! Husk på, dette er bare en lille forsmag på, hvad Escape Factory tilbyder";
+        break
+        default:
+        text = "Desværre, du må prøve igen";
+    }
+    document.getElementById("demo").innerHTML = text;
+ 
+    
+}
+</script>
+
+
+
+
+
+
+</body>
+
+</html>

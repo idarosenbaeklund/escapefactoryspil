@@ -1,0 +1,74 @@
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+	<!-- HUSK AT UDFYLDE BESKRIVELSE TIL SEO-->
+	<meta name="Description" content="">
+	<meta name="Keywords" content="">
+	<meta name="Author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Factory</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mate|Mate+SC|Merriweather+Sans" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+<div class="baggrund4">
+<img class="baggrundimg" src="images/baggrund4.jpg" alt="">
+
+<a href="haengelaas.html"><button class="knaekketkoden">Jeg har knækket koden, før mig til hængelåsen!</button></a>
+
+<a href="rum-3.html"><img class="pilhojre" src="images/pil-hojre.png"   alt=""></a>
+<a href="rum-1.html"><img class="pilvenstre" src="images/pil-venstre.png"   alt=""></a>
+
+
+
+
+<!--onclick "change" bruges til at sige når der klikkes skal det der sker nede i function change ske-->
+
+<img class="stikkontakt" src="lightswitch.png" alt="" id="lyset" onclick="change();">
+    
+    </div> 
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+ <!--fundet her: https://www.youtube.com/watch?v=SGKXZUGe2sw-->
+
+<script type="text/javascript">
+    var image_tracker = 'l'
+   
+    function change() {
+        
+        var image = document.getElementById('lyset');
+        
+        if(image_tracker=='l') {
+            image.src='numbers.png';
+            image_tracker = 'n';
+            image.style.width='200px';
+        }else{
+            image.src = 'lightswitch.png';
+            image_tracker ='l';
+            image.style.width='3%';
+        }
+    }
+    
+    
+    
+    </script>
+
+
+
+
+</body>
+
+</html>
